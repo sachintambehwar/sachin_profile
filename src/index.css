@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1c1f25;
+  color: #ffffffcc;
+}
+.workbg1 {
+  background-image: url("./assets/curd.png");
+  background-position: center;
+  opacity: 0.1;
+  background-size: cover;
+}
+@layer base {
+  body {
+    @apply font-[Nunito];
+  }
+  li {
+    @apply cursor-pointer;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
