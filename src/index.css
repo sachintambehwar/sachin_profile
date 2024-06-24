@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Overlock SC", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 @layer base {
   body {
-    @apply font-[Overlock,sans-serif];
+    @apply font-[Poppins,sans-serif];
   }
   li {
     @apply cursor-pointer;
