@@ -18,7 +18,7 @@ body {
 }
 @layer base {
   body {
-    @apply font-[Nunito];
+    @apply font-[Nunito,sans-serif];
   }
   li {
     @apply cursor-pointer;

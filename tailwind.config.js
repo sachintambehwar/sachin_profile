@@ -10,6 +10,9 @@ export default {
       Tarnary_Text: "#f1d5c7",
     },
     extend: {
+      fontFamily: {
+        nunito: ["Nunito", "Arial", "sans-serif"],
+      },
       keyframes: {
         wave: {
           "0%, 100%": { transform: "rotate(0deg)" },
