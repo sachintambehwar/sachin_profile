@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className="h-[72px] sticky top-0 left-0 z-40 shadow-md flex justify-between px-6 items-center">
-      <div className="font-[Pacifico] font-semibold w-7 h-7 ">
+      <div className="font-semibold w-7 h-7 ">
         {/* ST logo*/}
         <img src={icon} alt="logo" className="w-full h-full" />
       </div>
