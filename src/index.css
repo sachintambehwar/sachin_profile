@@ -19,9 +19,9 @@ body {
   background-size: cover;
 }
 @layer base {
-  body {
+  /* body {
     @apply font-[Poppins,sans-serif];
-  }
+  } */
   li {
     @apply cursor-pointer;
   }
