@@ -1,6 +1,6 @@
 const Work = () => {
   return (
-    <div name="work" className="w-full h-screen">
+    <div name="work" className="w-full h-screen min-[100px]:h-full">
       <div className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-Primary_Text">
@@ -15,7 +15,7 @@ const Work = () => {
           <h3 className="text-base italic font-bold text-[#badba2] m-0">
             Associate software Engineer
           </h3>
-          <p className="px-4">
+          <p className="px-1">
             In my current role, I have developed reusable and functional React
             components, adhering to design specifications and UI/UX principles.
             Utilizing React.js and related libraries such as MUI, Date-fns,
@@ -25,50 +25,124 @@ const Work = () => {
             Testing Library to ensure functionality and reliability.
           </p>
         </div>
-        {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="shadow-sm shadow-[#cccccc] group container rounded-full flex justify-center items-center mx-auto content-div  py-8 workbg1">
-            <div className="opacity-0 text-center group-hover:opacity-100">
-              <span className="font-bold uppercase tracking-wide text-Primary_Background">
-                Curd operation
-              </span>
-              <div className="pt-6 pb-2 text-center">
-                <a href="">
-                  <button className="text-center border-2 hover:scale-110 duration-500 opacity-70 rounded-full px-6 ">
-                    View
-                  </button>
-                </a>
-              </div>
-            </div>
+        <div className="text-xl mt-1 font-semibolds py-2 text-[#bbfbbb]">
+          Take a look around ....
+        </div>
+        <div className="grid mt-6 mb-8 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="max-w-sm p-6 border rounded-lg shadow font-[black] todo">
+            <a
+              href="https://sachintambehwar.github.io/todos/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#415e15]">
+                ToDo App
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 text-[#070707]">
+              ToDo App where you can write your daily todo task,login
+              functionality is done using localstorage.
+            </p>
+            <a
+              href="https://sachintambehwar.github.io/todos/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg b bg-background shadow-[#badba2] shadow-sm  hover:scale-110 "
+            >
+              Check Now
+              <svg
+                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
           </div>
-          <div className="shadow-sm shadow-[#cccccc] group container rounded-full flex justify-center items-center mx-auto content-div">
-            <div className="opacity-0 text-center group-hover:opacity-100">
-              <span className="font-bold uppercase tracking-wide">
-                Curd operation
-              </span>
-              <div className="pt-6 pb-2 text-center">
-                <a href="">
-                  <button className="text-center border-2 hover:scale-110 duration-500 opacity-70 rounded-full px-6 ">
-                    View
-                  </button>
-                </a>
-              </div>
-            </div>
+          <div className="max-w-sm p-6 border rounded-lg shadow font-[black] mern">
+            <a
+              href="https://sachintambehwar.github.io/todos/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#415e15]">
+                CURD-Operation
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 text-[#070707]">
+              This is curd operation using mern stack
+            </p>
+            <a
+              href="https://sachintambehwar.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg b bg-background shadow-[#badba2] shadow-sm  hover:scale-110 "
+            >
+              Check Now
+              <svg
+                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
           </div>
-          <div className="shadow-sm shadow-[#cccccc] group container rounded-full flex justify-center items-center mx-auto content-div">
-            <div className="opacity-0 text-center group-hover:opacity-100">
-              <span className="font-bold uppercase tracking-wide">
-                Curd operation
-              </span>
-              <div className="pt-6 pb-2 text-center">
-                <a href="">
-                  <button className="text-center border-2 hover:scale-110 duration-500 opacity-70 rounded-full px-6 ">
-                    View
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
+          {/* <div className="max-w-sm p-6 border rounded-lg shadow font-[black] todo">
+            <a
+              href="https://sachintambehwar.github.io/todos/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#415e15]">
+                ToDo App
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 text-[#070707]">
+              ToDo App where you can write your daily todo task,login
+              functionality is done using localstorage.
+            </p>
+            <a
+              href="https://sachintambehwar.github.io/todos/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg b bg-background shadow-[#badba2] shadow-sm  hover:scale-110 "
+            >
+              Check Now
+              <svg
+                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div> */}
+        </div>
       </div>
     </div>
   );
