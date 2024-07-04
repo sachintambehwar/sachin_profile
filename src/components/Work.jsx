@@ -81,7 +81,7 @@ const Work = () => {
               This is curd operation using mern stack
             </p>
             <a
-              href="https://sachintambehwar.github.io/"
+              href="https://github.com/sachintambehwar"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg b bg-background shadow-[#badba2] shadow-sm  hover:scale-110 "
