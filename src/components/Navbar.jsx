@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import icon from "../assets/St1.svg";
@@ -17,11 +17,56 @@ function Navbar() {
       {/* web menu */}
       <div>
         <ul className="md:flex hidden flex-1 justify-between items-center uppercase gap-8 px-12 font-light ">
-          <Link to="/">Home</Link>
-          <Link to={"/about"}>about</Link>
-          <Link to={"/skill"}>Skills</Link>
-          <Link to={"/work"}>Work</Link>
-          <Link to={"/contact"}>contact</Link>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "underline font-semibold"
+                : "hover:underline hover:decoration-2 hover:decoration-black transition-all duration-300"
+            }
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "underline font-semibold"
+                : "hover:underline hover:decoration-2 hover:decoration-black transition-all duration-300"
+            }
+            to={"/about"}
+          >
+            about
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "underline font-semibold"
+                : "hover:underline hover:decoration-2 hover:decoration-black transition-all duration-300"
+            }
+            to={"/skill"}
+          >
+            Skills
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "underline font-semibold"
+                : "hover:underline hover:decoration-2 hover:decoration-black transition-all duration-300"
+            }
+            to={"/work"}
+          >
+            Work
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "underline font-semibold"
+                : "hover:underline hover:decoration-2 hover:decoration-black transition-all duration-300"
+            }
+            to={"/contact"}
+          >
+            contact
+          </NavLink>
         </ul>
       </div>
       {/* hamburg */}

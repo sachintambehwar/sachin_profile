@@ -18,21 +18,21 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram />
+          <FaInstagram className="hover:scale-125" />
         </a>
         <a
           href="https://www.linkedin.com/in/sachin-tambeshwar-101706117"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin />
+          <FaLinkedin className="hover:scale-125" />
         </a>
         <a
           href="https://github.com/sachintambehwar"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub />
+          <FaGithub className="hover:scale-125" />
         </a>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { MdOutlineWavingHand } from "react-icons/md";
 import { FaFileDownload } from "react-icons/fa";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Resume_t.pdf";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen ">
