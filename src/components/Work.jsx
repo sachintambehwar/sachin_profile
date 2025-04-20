@@ -40,7 +40,7 @@ const Work = () => {
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 text-[#070707]">
-              ToDo App where you can write your daily todo task,login
+              React-ToDo App where you can write your daily todo task,login
               functionality is done using localstorage.
             </p>
             <a
@@ -74,11 +74,11 @@ const Work = () => {
               rel="noopener noreferrer"
             >
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-[#415e15]">
-                CURD-Operation
+                CRUD-Operation
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-700 text-[#070707]">
-              This is curd operation using mern stack
+              This is crud operation using mern stack
             </p>
             <a
               href="https://github.com/sachintambehwar"

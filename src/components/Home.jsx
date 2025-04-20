@@ -13,10 +13,10 @@ const Home = () => {
           my name is
         </p>
 
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ececec]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ececec] animate-pulse-glow">
           Sachin Tambeshwar
         </h1>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ececec]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ececec] animate-pulse-glow delay-200">
           I'm a web developer
         </h1>
         <p className="text-[#ececec] py-4 max-w-[700px]">
